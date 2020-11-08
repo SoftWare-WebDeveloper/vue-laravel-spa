@@ -2,8 +2,9 @@
 
 - git clone
 - composer install
+- npm install
 - npm run dev
-- add env
+- add .env
 - php artisan migrate --seed
 
 
@@ -13,4 +14,4 @@ credential for access application
 - email: test@email.com
 - password: password
 
-- **[Click Here](https://example.com/)**
+- **[Click Here](https://social.growthside.app/)**
