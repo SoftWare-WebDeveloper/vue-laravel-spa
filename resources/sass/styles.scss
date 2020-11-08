@@ -1,0 +1,56 @@
+.app-background-color {
+  background-color: #3b5192;
+}
+.bottom-border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.sidebar {
+  width: 16rem !important;
+  min-width: 200px;
+  position: relative;
+}
+.nav-link {
+  margin: 10px 25px 0;
+  color: hsla(0,0%,100%,.8);
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+
+  svg {
+    font-size: 20px;
+  }
+  &:hover {
+    color: white;
+    font-weight:bold;
+  }
+  &.active {
+    color: white;
+    font-weight:bold;
+    &:after {
+      content: "";
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background: white;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+.logout {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  & a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
